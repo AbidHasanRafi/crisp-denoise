@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crisp-denoise"
+version = "0.1.0"
+description = "Relational image denoising by self-similarity of multi-scale directional profiles"
+readme = "README.md"
+requires-python = ">=3.10"
+# scikit-image: noise estimation for c_mode="fused" (MAD fallback if absent).
+dependencies = ["numpy>=1.24", "scipy>=1.10", "scikit-image>=0.21"]
+
+[project.optional-dependencies]
+fast = ["numba>=0.59"]                       # compiled relational-NLM inner loop
+experiments = ["matplotlib>=3.7", "pytest>=7.0", "bm3d>=4.0"]
+
+[tool.setuptools]
+packages = ["crisp"]

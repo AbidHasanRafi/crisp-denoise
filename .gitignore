@@ -1,0 +1,27 @@
+# byte-compiled / caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# builds
+*.egg-info/
+build/
+dist/
+
+# benchmark datasets (download separately, see README)
+CBSD68/
+Set12/
+Kodak24/
+data/
+
+# run artifacts
+*.npy
+samples/**/*_demo_*.png
+samples/**/*_confidence.png
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
