@@ -128,10 +128,15 @@ samples/          a few standard test images (see samples/README.md)
 - Validated on synthetic Gaussian noise. Real sensor noise and a learned
   reference are out of scope here.
 
+Here is the updated citation section with the published article details and DOI:
+
 ## Citation
 
-This code accompanies a MethodsX method article (in submission). A `CITATION.cff`
-with the final reference and DOI will be added on publication.
+This code accompanies the MethodsX article:
+
+Rafi, M. A. H., Johora, M. F., Hossain, M. D., Islam, M. M., Nipun, M. M. K., & Sultana, T. (2026). *Relational non-local means for image denoising by cross-scale self-similarity of directional intensity-difference profiles*. **MethodsX, 17**, 104230. https://doi.org/10.1016/j.mex.2026.104230
+
+Please cite this article when using the code in your research.
 
 ## License
 
